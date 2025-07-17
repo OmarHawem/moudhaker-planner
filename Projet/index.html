@@ -13,25 +13,48 @@
             <H3>Bienvenue dans votre vie</H3>
         </div>
    <nav>
-    <div class="logo">
-  <div class="logo-icon">🧠</div>
-  <div class="logo-text">
-    <span class="arabic">مذكّر</span>
-    <span class="latin">Moudhaker</span>
-  </div>
-</div>
-
-    <ul>
+    <div class="head">
+     <div class="logo">
+        <div class="logo-icon">🧠</div>
+        <div class="logo-text">
+            <span class="arabic">مُذَكِّر</span>
+            <span class="latin">Moudhaker</span>
+        </div>
+     </div>
+     <ul>
         <li><a href="#acceuil">Acceuil</a></li>
         <li><a href="#tache">Taches</a></li>
         <li><a href="#planing">Planning</a></li>
         <li><a href="#citation">Citation</a></li>
-    </ul>
+     </ul>
+    </div> 
    </nav>
     </header>
     <main>
-        <section id="acceuil">
-            
+        <section id="Home">
+            <div class="home">
+                <h1 id="titre"> مرحبًا بك في  <span style="color: blue;">مذكّر</span> – <span style="color: blue;">Moudhaker</span></h1>
+                 <p id="Sous">منصة بسيطة ومجانية تساعدك على تنظيم وقتك، تتبع مهامك، وزيادة تركيزك يومًا بعد يوم</p>
+            </div>
+        </section>
+        <section class="todo-container" id="tache">
+            <h2 id="Todo-title">Mon To Do List</h2>
+            <div class="todo-item">
+                <input type="text" id="todolist" placeholder="Ajouter une tâche...">
+                <div class="item-todo">
+                    <button id="button">clique ici</button>
+                    <input type="date" id ="date" placeholder="Date">
+
+                </div>
+            </div>
+            <div class="todo-check">
+                <input type="checkbox" id="check1" name="check1">
+                <label for="todo1">nimchy na9ra</label>
+                <input type="checkbox" id ="check2" name="check2">
+                <label for="todo2">nymchy nhel dev</label>
+            </div>
+
+            </div>
         </section>
     </main>
 

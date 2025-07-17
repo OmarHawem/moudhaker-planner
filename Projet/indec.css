@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
 .bien{
     background-color: aqua;
     text-align: center;
@@ -29,10 +35,67 @@
     margin-left: 10px;
     font-weight: bold;
  }
- nav{
+ .head{
     display: flex;
     flex-direction: row;
-    gap: 600px; }
- ul{
+    gap: 600px;
+   border-bottom: 1px solid rgb(2, 2, 64) ;
+    padding: 10px 20px;
     }
+   
+ ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 80px;
+    margin-top: 40px;
+    font-size: large;
+    font-weight: bold;
+}
+.home #titre{
+   text-align: center;
+   font-weight: bold;
+   font: optional;
+   font-size: 500%;
+   margin-top: 50px;
+}
+ #Sous {
+   text-align: center;
+   font-weight: bold;
+   font-size: 100%; 
+}
+.todo-container{
+   background-color: beige;
+   margin: 5px;
+   border-radius: 10px;
+}
+#Todo-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 200%;
+    margin-top: 100px;
+    text-decoration: underline;
+}
+.todo-item{
+   margin-top: 40px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+
+}
+#todolist{
+   width: 40%;
+  height: 40px;
+   border-radius: 5px;
+   border: 1px solid rgb(242, 233, 233);
+   padding: 5px;
+   font-size: 20px;
+   box-shadow: 3px 3px 5px rgba(146, 144, 144, 0.1);
+}
+.item-todo{
+   color: blue;
+}
+
  
