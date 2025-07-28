@@ -50,8 +50,7 @@
                 <input type="text" id="todolist" placeholder="Ajouter une tâche...">
                 <div class="item-todo">
                     <button id="button">clique ici</button>
-                    <input type="date" id ="date" placeholder="Date">
-
+                   
                 </div>
             </div>
             <div class="todo-check">
@@ -97,10 +96,46 @@
         </div>
        </section>
        <section id="contact">
-        
+        <div class="contact-container">
+            <div class="contact-item">
+                <h2>Contactez Nous</h2>
+                <div class="contact-info">
+                  
+                    <div class="contact-image">
+                       <form>
+                        <label for="email">Adresse mail</label>
+                        <br>
+                        <input type="email" id="email" name="email" placeholder="Entrez votre adresse e-mail" required>
+                        <br>
+                        <label for="Full name">Full Name</label>
+                        <br>
+                        <input type="text" name="fullName" id="fullName" placeholder="Entrez votre Nom et Prénom" required>
+                        <br>
+                        <label for="message">Message</label><br>
+                        <textarea name="message" id="message"  placeholder="Écrivez votre message ici..." required></textarea>
+                        <br>
+                        <button type="submit">Envoyer</button>
+                       </form>
+                       <img id="contactImg" src="assets/contact.jpg" alt="contact image">
+                   </div>
+                     <div class="contact-icon">
+                        <div class="phone">
+                            <img id="phone" src="assets/phone.png" alt="phone icon">
+                            <p>+212 6 12 34 56 78</p>
+                        </div>
+                        <div class="mail">
+                            <img id="mail" src="assets/mail.png" alt="email icon">
+                            <p>moudhaker@gmail.com</p>
+                        </div>
+                        <div class="location">   
+                            <img id="location" src="assets/location.png" alt="address icon">
+                            <p>Sousse, Tunis</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
        </section>
-        
-      
     </main>
 
 </body>
