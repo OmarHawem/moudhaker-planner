@@ -9,9 +9,6 @@
 </head>
 <body>
     <header>
-        <div class="bien">
-            <H3>Bienvenue dans votre vie</H3>
-        </div>
    <nav>
     <div class="head">
      <div class="logo">
@@ -25,7 +22,7 @@
         <li><a href="#acceuil">Acceuil</a></li>
         <li><a href="#tache">Taches</a></li>
         <li><a href="#planing">Planning</a></li>
-        <li><a href="#citation">Citation</a></li>
+        
      </ul>
     </div> 
    </nav>
@@ -41,11 +38,15 @@
         <h2>Citation du jour</h2>
         <blockquote>
             <p>"La meilleure façon de prédire l'avenir est de l'inventer."</p>
-            <footer>- Alan Kay</footer>
+            <foter>- Alan Kay</foter>
         </blockquote>
        </section>
         <section class="todo-container" id="tache">
-            <h2 id="Todo-title">Mon To Do List</h2>
+            <div class="todoImg-container">
+                 <h2 id="Todo-title">Mon To Do List</h2>
+                 <img id="todoImg" src="assets/todoImg.jpg" alt="todo image">
+            </div>
+           
             <div class="todo-item">
                 <input type="text" id="todolist" placeholder="Ajouter une tâche...">
                 <div class="item-todo">
@@ -53,18 +54,24 @@
                    
                 </div>
             </div>
-            <div class="todo-check">
+           <!-- <div class="todo-check">
 
                 <input type="checkbox" id="check1" name="check1">
                 <label for="todo1">nimchy na9ra</label>
                 <input type="checkbox" id ="check2" name="check2">
                 <label for="todo2">nymchy nhel dev</label>
             </div>
+            --> 
+            
 
             </div>
         </section>
        <section id="planing">
-         <h2 >Planing  de Semaine</h2>
+         <div class="planner-img-container">
+           <img id="plannerImg" src="assets/contactsection.jpg" alt="contact image">
+           <span class="planner-title">Planing de Semaine</span>
+         </div>
+         
        <div class="planing-container">
         <div class="day">
             <h3>Lundi</h3>
@@ -98,7 +105,12 @@
        <section id="contact">
         <div class="contact-container">
             <div class="contact-item">
-                <h2>Contactez Nous</h2>
+                <div class="contactImg-container">
+                    <h2 id="contact-title">Contactez Nous</h2>
+                    <img id="contact-image" src="assets/contactImg.jpg" alt="contact image">
+
+                </div>
+                
                 <div class="contact-info">
                   
                     <div class="contact-image">
@@ -137,6 +149,11 @@
         </div>
        </section>
     </main>
-
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2025 Moudhaker. Il est en cours de traitement.</p>
+            <p>Conçu avec ❤️ par Omar</p>
+        </div>
+    </footer>
 </body>
 </html>
